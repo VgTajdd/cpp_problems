@@ -4,6 +4,8 @@ CC=cl.exe /EHsc
 # Specify linker
 LINK=link.exe
 
+.PHONY: clean all run
+
 all : app
 
 # Link the object files into a binary
@@ -18,3 +20,5 @@ main.o : main.cpp
 clean :
 	del main.o app.exe
 
+run:
+	app.exe
