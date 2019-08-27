@@ -16,7 +16,7 @@ It only has been encrypted alphabet characters (a - z).
 Sort the characters of the encrypted message according to the times they are used in the message (decreasing frequency) and compare them with this frequency table:
 
 ``` txt
-freqLang = "TEOAISRHNUCMDLGWFPYKJBVQX" (de mas frecuente a menos frecuente)
+freqLang = "TEOAISRHNUCMDLGWFPYKJBVQX" (more frequent to less frequent)
 ``` 
 
 Implement the method: decryptMessage( message, freqLang )
