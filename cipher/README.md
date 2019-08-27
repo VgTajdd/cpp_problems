@@ -1,6 +1,6 @@
 ## CIPHER
 
-Desencripta el siguiente mensaje:
+Decrypt the following message:
 
 ``` txt
 Bgc-bfufb tegaedppqna ql aggv zge xof tegaedppfe'l lgjb.
@@ -11,26 +11,28 @@ Xof rglx gz dvvqna d zfdxjef qln'x mjlx xof xqpf qx xdwfl xg rgvf qx. Xof rglx d
 (ccc.hedqnkijgxf.rgp/ijgxfl/djxogel/m/mgon_rdepdrw.oxpb)
 ``` 
 
-Si se sabe que solo se han encriptado las letras del alfabeto (a - z).
+It only has been encrypted alphabet characters (a - z).
 
-Para ello ordena las letras del mensaje encriptado de acuerdo al numero de veces que se repiten (de mayor a menor) y compáralo con la tabla de frecuencia de caracteres del lenguaje en que esta escrito este mensaje, que para este caso es:
+Sort the characters of the encrypted message according to the times they are used in the message (decreasing frequency) and compare them with this frequency table:
 
 ``` txt
 freqLang = "TEOAISRHNUCMDLGWFPYKJBVQX" (de mas frecuente a menos frecuente)
 ``` 
 
-Implementar la función: decryptMessage( message, freqLang )
+Implement the method: decryptMessage( message, freqLang )
 
-Tu programa debe imprimir el texto desencriptado en pantalla.
+Your program must show the decrypted message on screen.
 
-No uses archivos ni pidas ingresar datos.
+Don't use files. Don't ask for input data.
 
-Mantener las mayúsculas y minúsculas del mensaje, así como los saltos de linea.
+Keep the uppercase and lowercase of the message, as well as line breaks.
 
-## SOLUCIÓN
+## GO TO ACTION!
 
-It will be a litle hard...
+It will be a litle hard... 
 
 ``` txt
 run.bat
 ``` 
+
+If you are not using VS 2017 Community, please change the path in that batch.
