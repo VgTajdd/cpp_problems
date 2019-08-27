@@ -57,7 +57,7 @@ void decryptMessage( const string& message, const string& freqLang )
         else
         {
             int d = distance( freqLang2.begin(), it );
-            char toPut = freqLang[d];
+            char toPut = tolower( freqLang[d] );
             if ( upper )
             {
                 toPut = toupper( toPut );
