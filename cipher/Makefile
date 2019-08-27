@@ -1,5 +1,5 @@
 # Specify compiler
-CC=cl.exe
+CC=cl.exe /EHsc
 
 # Specify linker
 LINK=link.exe
