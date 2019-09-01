@@ -19,11 +19,14 @@ n = 11 (* = wall, A = start, B = end)
 ***********
 ``` 
 
-The 'start' position A must be in the same position of the example. The 'limit' positions must be walls.
-The 'end' position B must be in a randon position. You must find the shortest path between A and B.
+The 'start' position A must always be the same, as shown in the example. The 'limit' positions must be walls.
+The 'end' position B must be in a randon position on the right side as shown in the example. 
+
+You must find the shortest path between A and B.
+
 If there's no path from A to B, another maze must be created.
 
-Implement the method ``` txt createMaze2D( n ) ```
+Implement the method: ```createMaze2D( n )```
 
 This method will print the maze generated in the same way that in the example.
 Don't forget to print the shortest path between A and B using '+'.
