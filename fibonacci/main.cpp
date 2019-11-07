@@ -34,8 +34,9 @@ int fib_m( const int n, std::map<int, int>& memo )
 // Time complexity O(n).
 int fib_bu( const int n )
 {
-	std::vector< int > buffer;
-	buffer.resize( n, 1 );
+	//std::vector< int > buffer;
+	//buffer.resize( n, 1 );
+	int buffer[n];
 	for ( int i = 3; i <= n; i++ )
 	{
 		buffer[i - 1] = buffer[i - 2] + buffer[i - 3];
