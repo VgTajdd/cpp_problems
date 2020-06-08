@@ -29,7 +29,7 @@ Keep the uppercase and lowercase of the message, as well as line breaks.
 
 ## GO TO ACTION!
 
-It will be a litle hard... 
+It will be a little hard... 
 
 ``` txt
 run.bat
