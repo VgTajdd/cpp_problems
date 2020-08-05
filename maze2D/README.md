@@ -33,7 +33,7 @@ Don't forget to print the shortest path between A and B using '+'.
 
 ## GO TO ACTION!
 
-It will be a litle hard... 
+This could be a little hard... 
 
 ``` txt
 run.bat
