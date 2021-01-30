@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "delete_letters", "delete_letters.vcxproj", "{73D73177-FB1B-438D-8D04-36D027EC00E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73D73177-FB1B-438D-8D04-36D027EC00E5}.Debug|x64.ActiveCfg = Debug|x64
+		{73D73177-FB1B-438D-8D04-36D027EC00E5}.Debug|x64.Build.0 = Debug|x64
+		{73D73177-FB1B-438D-8D04-36D027EC00E5}.Debug|x86.ActiveCfg = Debug|Win32
+		{73D73177-FB1B-438D-8D04-36D027EC00E5}.Debug|x86.Build.0 = Debug|Win32
+		{73D73177-FB1B-438D-8D04-36D027EC00E5}.Release|x64.ActiveCfg = Release|x64
+		{73D73177-FB1B-438D-8D04-36D027EC00E5}.Release|x64.Build.0 = Release|x64
+		{73D73177-FB1B-438D-8D04-36D027EC00E5}.Release|x86.ActiveCfg = Release|Win32
+		{73D73177-FB1B-438D-8D04-36D027EC00E5}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31376AC7-2413-49A8-BF05-72718C32949A}
+	EndGlobalSection
+EndGlobal
